@@ -7,7 +7,7 @@ set White=%ESC%[97m
 
 if "%1" == "" (
     :PRINT_USAGE_AND_EXIT
-    echo Copies PowerShell consolle history cu current folder. History does not exist for Windows versions: Windows 7 / 8.1 / Windows Server 2008 / R2 / 2012R2
+    echo Copies PowerShell consolle history to current folder. History does not exist for Windows versions: Windows 7 / 8.1 / Windows Server 2008 / R2 / 2012R2
     echo Usage: gpshistory.bat [/current ^| /all]
     echo        /current  - extracts Powershell history from current user only
     echo        /all      - extracts Powershell history from all users ^(requires being executed with admin rights^)
